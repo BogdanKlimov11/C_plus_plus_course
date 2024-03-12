@@ -2,7 +2,9 @@
 
 using namespace std;
 
+// Пузырьковая сортировка
 vector<int> bubble_sort(vector<int>& arr) {
+    // Получаем длину массива
     int n = arr.size();
     // Проходим по всем элементам массива
     for (int i = 0; i < n; ++i) {
