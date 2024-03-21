@@ -1,3 +1,5 @@
+#include <algorithm>
+
 void cocktail_sort(int arr[], int n) {
     bool swapped = true;
     int start = 0;
